@@ -10,17 +10,13 @@ pub struct Keybind {
 }
 
 impl Keybind {
-    pub fn default() -> Keybind {
+    pub fn new(keys: &[Keycode]) -> Keybind {
         Keybind {
             device_state: DeviceState::new(),
             previous_pressed_keys: Vec::new(),
-            key_binds: Vec::new(),
+            key_binds: keys.to_vec(),
             on_trigger: Box::new(||{})
         }
-    }
-
-    pub fn bind(&mut self, key: Keycode) {
-        self.key_binds.push(key);
     }
 
     pub fn triggered(&mut self) -> bool {

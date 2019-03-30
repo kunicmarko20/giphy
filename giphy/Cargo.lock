@@ -1,6 +1,6 @@
 [[package]]
 name = "device_query"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "pkg-config 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -21,12 +21,12 @@ dependencies = [
 name = "keybind"
 version = "0.1.0"
 dependencies = [
- "device_query 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "device_query 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "libc"
-version = "0.2.50"
+version = "0.2.51"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
@@ -91,13 +91,13 @@ name = "x11"
 version = "2.18.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "libc 0.2.50 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libc 0.2.51 (registry+https://github.com/rust-lang/crates.io-index)",
  "pkg-config 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [metadata]
-"checksum device_query 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "9da2a55f320d028494d4886ff6292d6f7f3bddbd0ac8fdb287993516b30f8d9c"
-"checksum libc 0.2.50 (registry+https://github.com/rust-lang/crates.io-index)" = "aab692d7759f5cd8c859e169db98ae5b52c924add2af5fbbca11d12fefb567c1"
+"checksum device_query 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "cb895adf454512ea59faa5a1dbc2215e31ca8beab96dfb6188832afe4800e425"
+"checksum libc 0.2.51 (registry+https://github.com/rust-lang/crates.io-index)" = "bedcc7a809076656486ffe045abeeac163da1b558e963a31e29fbfbeba916917"
 "checksum pkg-config 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)" = "676e8eb2b1b4c9043511a9b7bea0915320d7e502b0a079fb03f9635a5252b18c"
 "checksum user32-sys 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "4ef4711d107b21b410a3a974b1204d9accc8b10dad75d8324b5d755de1617d47"
 "checksum webbrowser 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "f08b2530d0f0c96ae77672bd927d07cec2ea33b07d1a8f74cfcf35e61f98fd0e"
