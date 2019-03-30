@@ -13,13 +13,14 @@ dependencies = [
 name = "giphy"
 version = "0.1.0"
 dependencies = [
- "keybind 0.1.0",
+ "keybind 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "webbrowser 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "keybind"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "device_query 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -97,6 +98,7 @@ dependencies = [
 
 [metadata]
 "checksum device_query 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "cb895adf454512ea59faa5a1dbc2215e31ca8beab96dfb6188832afe4800e425"
+"checksum keybind 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "21e98b1ae53767199b33f8bc040f7f50c73f0aa2684a5c6c11c449a6831e3d55"
 "checksum libc 0.2.51 (registry+https://github.com/rust-lang/crates.io-index)" = "bedcc7a809076656486ffe045abeeac163da1b558e963a31e29fbfbeba916917"
 "checksum pkg-config 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)" = "676e8eb2b1b4c9043511a9b7bea0915320d7e502b0a079fb03f9635a5252b18c"
 "checksum user32-sys 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "4ef4711d107b21b410a3a974b1204d9accc8b10dad75d8324b5d755de1617d47"
